@@ -1,0 +1,13 @@
+Eval Function :
+
+Inside "MaxConnect4Game":-
+  1. A Minimax class is declared whose job is to make decisions.
+     It has following functions with the following task:-
+	a.ComputeStep() :The decision of the minimax algorithm is returned by this function.
+	b.maximumResult() :This function performed the task of Max node in minimax algorithum.
+	c.MinimalV() :This function performed the task of Min node in minimax algorithum.
+	d.Top_Util() :This function returns the utility value, which is to be maximized or minimized.
+	e.result() :News state will be evaluated by this function after a particular move.
+	f.successor() :This function returns the next state.
+  2.In Top_Util function, utility will be increased by 1 if there is an entry by computer and it will be recuded by 1 if there is an entry by human player.Top_Util     function also claculate the score difference amoungst all player.
+  3. The value of utility is returned to the MinMax.Then it compares it with the bnest value,based on with the decision is made that implies the best action for           optimal move.This hepls computer to win even when the human player plays randomly any value.
